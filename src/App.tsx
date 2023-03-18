@@ -10,8 +10,7 @@ const App: React.FC = () => {
     const getPerson = async () => {
       const apiResponse = await fetch(`https://swapi.dev/api/people/`);      
       const json = await apiResponse.json();
-      setPerson(json.results[0]);  
-      console.log(json);    
+      setPerson(json.results[0]);        
     };
     getPerson();
     
