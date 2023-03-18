@@ -27,8 +27,11 @@ const App: React.FC = () => {
 
   return (
     <>    
-    {person.name && <div>{person.name}</div>}
-    {errorMessage && <div>{errorMessage}</div>}
+    <header>
+      <p className={"main-heading"}>STAR WARS API PROJECT</p>
+    </header>
+    {person.name && <div className={"star-wars-person"}>{person.name}</div>}
+    {errorMessage && <div className={"error"}>{errorMessage}</div>}
     </>
   );
 }
