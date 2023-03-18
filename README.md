@@ -1,7 +1,7 @@
 # STAR WARS API PROJECT :rocket: #
 
 To run the app:
-        `code(npm start)`
+        `npm start`
 
 If the page doesn't open, go to localhost:3000 in your browser.
 
